@@ -1,6 +1,6 @@
 # Helper Method
-def position_taken?(board, index)
-  !(board[index].nil? || board[index] == " ")
+def position_taken?(board, space)
+  !(space.nil? || space == " ")
 end
 
 # Define your WIN_COMBINATIONS constant
@@ -19,5 +19,5 @@ def won?(board)
 end
 
 def full?(board)
-  
+  board.all?(|space| )  
 end
