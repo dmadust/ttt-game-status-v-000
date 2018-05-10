@@ -12,6 +12,8 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |combo|
     position0 = board[combo[0]]
+    position1 = board[combo[1]]
+    position2 = board[combo[2]]
   end
   return nil
 end
