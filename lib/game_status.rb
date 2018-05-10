@@ -19,5 +19,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?(|space| position_taken?(board, space))  
+  board.all?{|space| position_taken?(board, space)}
 end
