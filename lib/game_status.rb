@@ -1,5 +1,5 @@
 # Helper Method
-def position_taken?(board, space)
+def position_taken?(space)
   !(space.nil? || space == " ")
 end
 
