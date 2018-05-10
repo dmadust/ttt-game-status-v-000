@@ -41,4 +41,5 @@ def winner(board)
     winning_combo[0]
   else
     nil
+  end
 end
