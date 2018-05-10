@@ -26,3 +26,6 @@ end
 def full?(board)
   board.all?{|space| position_taken?(space)}
 end
+
+def draw?(board)
+  !won?(board) && full?(board)
