@@ -15,7 +15,10 @@ def won?(board)
     position1 = board[combo[1]]
     position2 = board[combo[2]]
     
-    if (position0 == "X" && position1 == "X" && position2 == "X")
+    if (position0 == "X" && position1 == "X" && position2 == "X") ||
+      (position0 == "O" && position1 == "O" && position2 == "O")
+      return combo
+    end
   end
   return nil
 end
